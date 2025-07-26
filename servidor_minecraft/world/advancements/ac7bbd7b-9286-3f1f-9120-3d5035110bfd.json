@@ -251,6 +251,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-07-26 06:47:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/iron_leggings": {
     "criteria": {
       "has_iron_ingot": "2025-07-26 05:38:36 +0000"
@@ -268,6 +274,7 @@
       "chicken": "2025-07-26 05:43:53 +0000",
       "cooked_mutton": "2025-07-26 05:40:49 +0000",
       "beef": "2025-07-26 05:35:43 +0000",
+      "porkchop": "2025-07-26 06:47:19 +0000",
       "apple": "2025-07-26 05:59:53 +0000",
       "mutton": "2025-07-26 05:44:15 +0000",
       "bread": "2025-07-26 06:22:08 +0000",
@@ -434,6 +441,12 @@
   "minecraft:recipes/brewing/cauldron": {
     "criteria": {
       "has_water_bucket": "2025-07-26 06:26:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2025-07-26 06:42:37 +0000"
     },
     "done": true
   },
@@ -998,6 +1011,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:mountains": "2025-07-26 05:36:10 +0000",
+      "minecraft:forest": "2025-07-26 06:41:28 +0000",
       "minecraft:birch_forest": "2025-07-26 05:36:00 +0000",
       "minecraft:dark_forest": "2025-07-26 05:35:05 +0000",
       "minecraft:river": "2025-07-26 05:35:32 +0000",

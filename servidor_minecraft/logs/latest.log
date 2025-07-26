@@ -430,3 +430,45 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.4
 [06:42:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [The survivor]
 [06:42:24] [Server thread/INFO] [tac/]: PENDING
 [06:42:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo
+[06:48:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /gm 1
+[06:49:13] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /gm 0
+[06:50:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo
+[06:50:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tp Abell
+[06:51:00] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo
+[06:51:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [Sweet Dreams]
+[06:51:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [Acquire Hardware]
+[06:53:24] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> zz
+[06:53:24] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> zzz
+[06:53:25] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> zzzz
+[06:53:26] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> zzzzzzzzzzzz
+[06:53:27] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> zzz
+[06:53:27] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> zzz
+[06:53:29] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[06:53:31] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[06:53:35] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[06:53:36] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:37] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:37] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:38] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:38] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:38] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:39] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:39] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:39] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:39] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:40] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:40] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:40] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:40] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:41] [Async Chat Thread - 3/INFO] [/]: <carlospelatodo> z
+[06:53:41] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: carlospelatodo lost connection: Kicked for spamming
+[06:53:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo left the game
+[06:53:41] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:53:42] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+[06:53:43] [Async Chat Thread - 3/INFO] [/]: <Abell> W
+[06:53:45] [Async Chat Thread - 3/INFO] [/]: <Slowin_S> xd
+[06:53:48] [User Authenticator #7/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player carlospelatodo is 9ab9b2ae-7c63-37ed-8214-a1f03a54a363
+[06:53:49] [Netty Epoll Server IO #5/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 28 mods : minecraft, zombie_extreme, betterdungeons, heb, philips_ruins1_16_5, apocalypsenow, tac, mobsunscreen, journeymap, travelersbackpack, zombieawareness, yungsapi, backpacked, lostcities, obfuscate, betteranimalsplus, badmobs, coroutil, architectury, forge, valhelsia_core, valhelsia_structures, dynamictrees, bettermineshafts, geckolib3, embeddium, rubidium, simple_hammers
+[06:53:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: carlospelatodo[/100.80.246.77:58193] logged in with entity id 9,505 at (-284.5, 72, 177.5)
+[06:53:50] [Server thread/INFO] [tac/]: PENDING
+[06:53:50] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
