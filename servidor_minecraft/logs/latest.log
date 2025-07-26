@@ -382,3 +382,51 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.4
 [06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-318} Block{minecraft:light_blue_bed}
 [06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-168, y=79, z=-317} Block{minecraft:chest}
 [06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-161, y=79, z=-317} Block{minecraft:chest}
+[06:36:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tp Abell
+[06:36:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Sweet Dreams]
+[06:36:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [Sweet Dreams]
+[06:36:37] [Async Chat Thread - 2/INFO] [/]: <Abell> e
+[06:38:37] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tp Abell
+[06:39:03] [User Authenticator #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player carlospelatodo is 9ab9b2ae-7c63-37ed-8214-a1f03a54a363
+[06:39:04] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 28 mods : minecraft, zombie_extreme, betterdungeons, heb, philips_ruins1_16_5, apocalypsenow, tac, mobsunscreen, journeymap, travelersbackpack, zombieawareness, yungsapi, backpacked, lostcities, obfuscate, betteranimalsplus, badmobs, coroutil, architectury, forge, valhelsia_core, valhelsia_structures, dynamictrees, bettermineshafts, geckolib3, embeddium, rubidium, simple_hammers
+[06:39:05] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: carlospelatodo[/100.80.246.77:58115] logged in with entity id 5,716 at (-53.145, 78, -58.874)
+[06:39:06] [Server thread/INFO] [Essentials/]: Created a User for carlospelatodo (9ab9b2ae-7c63-37ed-8214-a1f03a54a363) for non Bukkit type: org.bukkit.craftbukkit.v1_16_R3.entity.CraftPlayer
+[06:39:06] [Server thread/INFO] [tac/]: PENDING
+[06:39:06] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:39:17] [Server thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Server
+[06:39:17] [Server thread/WARN] [/]: java.util.ConcurrentModificationException
+[06:39:17] [Server thread/WARN] [/]: 	at java.base/java.util.HashMap$HashIterator.remove(HashMap.java:1619)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.entity.LivingEntity.clearActivePotions(LivingEntity.java:936)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.entity.player.ServerPlayerEntity.reset(ServerPlayerEntity.java:1953)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.management.PlayerList.func_232644_a_(PlayerList.java:606)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147342_a(ServerPlayNetHandler.java:2056)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CClientStatusPacket.func_148833_a(SourceFile:30)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CClientStatusPacket.func_148833_a(SourceFile:8)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:967)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:950)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:944)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:930)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:850)
+[06:39:17] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[06:39:17] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[06:41:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: carlospelatodo lost connection: Disconnected
+[06:41:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo left the game
+[06:41:46] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:41:49] [User Authenticator #6/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player carlospelatodo is 9ab9b2ae-7c63-37ed-8214-a1f03a54a363
+[06:41:50] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 28 mods : minecraft, zombie_extreme, betterdungeons, heb, philips_ruins1_16_5, apocalypsenow, tac, mobsunscreen, journeymap, travelersbackpack, zombieawareness, yungsapi, backpacked, lostcities, obfuscate, betteranimalsplus, badmobs, coroutil, architectury, forge, valhelsia_core, valhelsia_structures, dynamictrees, bettermineshafts, geckolib3, embeddium, rubidium, simple_hammers
+[06:41:52] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: carlospelatodo[/100.80.246.77:58143] logged in with entity id 6,702 at (-53.145, 78, -58.874)
+[06:41:52] [Server thread/INFO] [tac/]: PENDING
+[06:41:52] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:42:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo
+[06:42:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo died
+[06:42:20] [Server thread/INFO] [tac/]: PENDING
+[06:42:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [The survivor]
+[06:42:24] [Server thread/INFO] [tac/]: PENDING
+[06:42:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo

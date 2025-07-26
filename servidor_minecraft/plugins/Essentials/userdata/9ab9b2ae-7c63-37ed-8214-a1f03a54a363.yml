@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 100.80.246.77
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1753512106441
+  login: 1753512112857
+money: '0'
+last-account-name: carlospelatodo
+logoutlocation:
+  world: 6279493f-704f-45c4-b8c2-cc66c834d8ce
+  world-name: world
+  x: -53.145209376290694
+  y: 78.0
+  z: -58.87363587283944
+  yaw: 302.95074462890625
+  pitch: 8.099990844726562
+lastlocation:
+  world: 6279493f-704f-45c4-b8c2-cc66c834d8ce
+  world-name: world
+  x: 162.5
+  y: 63.0
+  z: -40.5
+  yaw: 26.54998779296875
+  pitch: 6.600000381469727
