@@ -10217,3 +10217,319 @@ java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjec
 [05:49:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [The survivor]
 [05:49:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tp carlospelatodo
 [05:49:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugins
+[05:49:53] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin load
+[05:49:58] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload
+[05:50:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin unload
+[05:50:10] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload
+[05:50:16] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload TAB
+[05:50:16] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Disabling TAB v5.2.4
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] Failed to disable
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] java.lang.NoSuchMethodError: 'net.minecraft.util.text.Style net.minecraft.util.text.Style.setUnderline(java.lang.Boolean)'
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSComponentConverter.applyStyle(NMSComponentConverter.java:38)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.provider.ComponentConverter.convert(ComponentConverter.java:37)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.platform.BukkitPlatform.convertComponent(BukkitPlatform.java:335)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.chat.component.TabComponent.convert(TabComponent.java:167)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSPacketTabList.setPlayerListHeaderFooter(NMSPacketTabList.java:101)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.features.header.HeaderFooter.sendHeaderFooter(HeaderFooter.java:166)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.features.header.HeaderFooter.unload(HeaderFooter.java:56)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.FeatureManager.unload(FeatureManager.java:85)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.TAB.unload(TAB.java:225)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTAB.onDisable(BukkitTAB.java:22)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:275)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:370)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:513)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:505)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at com.mohistmc.util.pluginmanager.Control.unloadPlugin(Control.java:96)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at com.mohistmc.util.pluginmanager.PluginManagers.reloadPluginCommand(PluginManagers.java:126)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at com.mohistmc.command.PluginCommand.execute(PluginCommand.java:69)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1826)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1663)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:39)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:10)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:967)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:950)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:944)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(ThreadTaskExecutor.java:114)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1064)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:846)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:829)
+[05:50:16] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Enabling TAB v5.2.4
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] [groups.yml] Unknown property "customtagname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] [users.yml] Unknown property "abovename" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[05:50:16] [Server thread/INFO] [/]: [TAB] [WARN] [users.yml] Unknown property "belowname" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] Failed to enable. Did you just invent a new way to break the plugin by misconfiguring it?
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] java.lang.NoSuchMethodError: 'net.minecraft.util.text.Style net.minecraft.util.text.Style.setUnderline(java.lang.Boolean)'
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSComponentConverter.applyStyle(NMSComponentConverter.java:38)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.provider.ComponentConverter.convert(ComponentConverter.java:37)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.platform.BukkitPlatform.convertComponent(BukkitPlatform.java:335)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.chat.component.TabComponent.convert(TabComponent.java:167)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.v1_16_R3.NMSPacketTabList.setPlayerListHeaderFooter(NMSPacketTabList.java:101)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.features.header.HeaderFooter.sendHeaderFooter(HeaderFooter.java:166)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.features.header.HeaderFooter.onJoin(HeaderFooter.java:67)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.features.header.HeaderFooter.load(HeaderFooter.java:48)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.FeatureManager.load(FeatureManager.java:66)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.TAB.load(TAB.java:197)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.shared.TAB.create(TAB.java:122)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at me.neznamy.tab.platforms.bukkit.BukkitTAB.onEnable(BukkitTAB.java:17)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:273)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:481)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at com.mohistmc.util.pluginmanager.PluginManagers.reloadPluginCommand(PluginManagers.java:132)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at com.mohistmc.command.PluginCommand.execute(PluginCommand.java:69)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1826)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1663)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:39)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:10)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:967)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:950)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:944)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213160_bf(ThreadTaskExecutor.java:114)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:1064)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:846)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[05:50:17] [Server thread/INFO] [/]: [TAB] [WARN] 	at java.base/java.lang.Thread.run(Thread.java:829)
+[05:50:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[05:50:42] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[05:50:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugins reload
+[05:51:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload
+[05:51:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload floodgate
+[05:51:15] [Server thread/WARN] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] en_ is not a supported Floodgate language.
+[05:51:16] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Took 1,651ms to boot Floodgate
+[05:51:16] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:51:16] [Server thread/WARN] [/]: java.lang.IllegalArgumentException: Duplicate handler name: floodgate-init
+[05:51:16] [Server thread/WARN] [/]: 	at io.netty.channel.DefaultChannelPipeline.checkDuplicateName(DefaultChannelPipeline.java:1101)
+[05:51:16] [Server thread/WARN] [/]: 	at io.netty.channel.DefaultChannelPipeline.filterName(DefaultChannelPipeline.java:302)
+[05:51:16] [Server thread/WARN] [/]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:160)
+[05:51:16] [Server thread/WARN] [/]: 	at io.netty.channel.DefaultChannelPipeline.addFirst(DefaultChannelPipeline.java:152)
+[05:51:16] [Server thread/WARN] [/]: 	at org.geysermc.floodgate.inject.spigot.SpigotInjector.injectClient(SpigotInjector.java:110)
+[05:51:16] [Server thread/WARN] [/]: 	at org.geysermc.floodgate.inject.spigot.SpigotInjector.inject(SpigotInjector.java:95)
+[05:51:16] [Server thread/WARN] [/]: 	at org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:71)
+[05:51:16] [Server thread/WARN] [/]: 	at org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70)
+[05:51:16] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:273)
+[05:51:16] [Server thread/WARN] [/]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335)
+[05:51:16] [Server thread/WARN] [/]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:481)
+[05:51:16] [Server thread/WARN] [/]: 	at com.mohistmc.util.pluginmanager.PluginManagers.reloadPluginCommand(PluginManagers.java:132)
+[05:51:16] [Server thread/WARN] [/]: 	at com.mohistmc.command.PluginCommand.execute(PluginCommand.java:69)
+[05:51:16] [Server thread/WARN] [/]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149)
+[05:51:16] [Server thread/WARN] [/]: 	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1826)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1663)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:39)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:10)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:967)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:950)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:944)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:930)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:850)
+[05:51:16] [Server thread/WARN] [/]: 	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267)
+[05:51:16] [Server thread/WARN] [/]: 	at java.base/java.lang.Thread.run(Thread.java:829)
+[05:51:16] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c) (Is it up to date?)
+org.geysermc.floodgate.shadow.com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) [Guice/ErrorInCustomProvider]: ExceptionInInitializerError
+  at SpigotCommandModule.commandManager(SpigotCommandModule.java:59)
+      \_ installed by: PostInitializeModule -> SpigotCommandModule
+  while locating CommandManager<UserAudience>
+  at CommandRegister.<init>(CommandRegister.java:48)
+  at CommandModule.configure(CommandModule.java:42)
+      \_ installed by: PostInitializeModule -> SpigotCommandModule
+  while locating CommandRegister
+
+Learn more:
+  https://github.com/google/guice/wiki/ERROR_IN_CUSTOM_PROVIDER
+
+1 error
+
+======================
+Full classname legend:
+======================
+CommandManager:              "org.geysermc.floodgate.shadow.org.incendo.cloud.CommandManager"
+CommandModule:               "org.geysermc.floodgate.module.CommandModule"
+CommandRegister:             "org.geysermc.floodgate.register.CommandRegister"
+PostInitializeModule:        "org.geysermc.floodgate.module.PostInitializeModule"
+SpigotCommandModule:         "org.geysermc.floodgate.module.SpigotCommandModule"
+UserAudience:                "org.geysermc.floodgate.player.UserAudience"
+========================
+End of classname legend:
+========================
+
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:589) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:190) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:113) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:240) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:245) ~[?:?]
+	at org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:76) ~[?:?]
+	at org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:273) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:481) ~[forge:?]
+	at com.mohistmc.util.pluginmanager.PluginManagers.reloadPluginCommand(PluginManagers.java:132) ~[forge:?]
+	at com.mohistmc.command.PluginCommand.execute(PluginCommand.java:69) ~[forge:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.dispatchCommand(CraftServer.java:782) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147361_d(ServerPlayNetHandler.java:1826) ~[?:?]
+	at net.minecraft.network.play.ServerPlayNetHandler.func_147354_a(ServerPlayNetHandler.java:1663) ~[?:?]
+	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:39) ~[?:?]
+	at net.minecraft.network.play.client.CChatMessagePacket.func_148833_a(CChatMessagePacket.java:10) ~[?:?]
+	at net.minecraft.network.PacketThreadUtil.func_225383_a(PacketThreadUtil.java:22) ~[?:?]
+	at net.minecraft.util.concurrent.TickDelayedTask.run(SourceFile:18) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213166_h(ThreadTaskExecutor.java:153) ~[?:?]
+	at net.minecraft.util.concurrent.RecursiveEventLoop.func_213166_h(SourceFile:23) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:967) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213166_h(MinecraftServer.java:174) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213168_p(ThreadTaskExecutor.java:126) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213205_aW(MinecraftServer.java:950) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213168_p(MinecraftServer.java:944) ~[?:?]
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.func_213161_c(ThreadTaskExecutor.java:136) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_213202_o(MinecraftServer.java:930) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:850) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.registerParserSupplierFor(BukkitParsers.java:132) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.register(BukkitParsers.java:115) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitCommandManager.<init>(BukkitCommandManager.java:99) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.paper.LegacyPaperCommandManager.<init>(LegacyPaperCommandManager.java:92) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule.commandManager(SpigotCommandModule.java:61) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$14ee650.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$14ee650.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1181) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister.<init>(CommandRegister.java:49) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19c5747.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19c5747.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186) ~[?:?]
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: Couldn't find BlockPredicateArgument$Result class
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.internal.CraftBukkitReflection.firstNonNullOrThrow(CraftBukkitReflection.java:115) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.parser.BlockPredicateParser.<clinit>(BlockPredicateParser.java:100) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.registerParserSupplierFor(BukkitParsers.java:132) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.register(BukkitParsers.java:115) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitCommandManager.<init>(BukkitCommandManager.java:99) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.paper.LegacyPaperCommandManager.<init>(LegacyPaperCommandManager.java:92) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule.commandManager(SpigotCommandModule.java:61) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$14ee650.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$14ee650.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1181) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister.<init>(CommandRegister.java:49) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19c5747.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19c5747.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186) ~[?:?]
+	... 30 more
+[05:51:16] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:51:17] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Abell moved too quickly! -12.96,0.072,-7.661
+[05:51:23] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload ClearLag
+[05:51:23] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Disabling ClearLag v3.2.2
+[05:51:23] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now disabled!
+[05:51:23] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Enabling ClearLag v3.2.2
+[05:51:23] [Server thread/INFO] [Minecraft/]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[05:51:23] [Server thread/INFO] [Minecraft/]: [ClearLag] Loading modules...
+[05:51:23] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules enabed, loading config values
+[05:51:23] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules have been loaded!
+[05:51:23] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now enabled!
+[05:51:23] [Thread-55/INFO] [Minecraft/]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[05:51:23] [Thread-55/INFO] [Minecraft/]: [ClearLag] No updates found!
+[05:51:27] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at 333 15 -483
+[05:51:28] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload LuckPerms
+[05:51:28] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Disabling LuckPerms v5.4.134
+[05:51:28] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Starting shutdown process...
+[05:51:28] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Closing storage...
+[05:51:28] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Goodbye!
+[05:51:29] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.4.134
+[05:51:30] [Server thread/INFO] [/]:         __    
+[05:51:30] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.4.134
+[05:51:30] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - Mohist
+[05:51:30] [Server thread/INFO] [/]: 
+[05:51:30] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[05:51:31] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[05:51:34] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[05:51:34] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Registered Vault permission & chat hook.
+[05:51:35] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[05:51:36] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 7590ms)
+[05:51:36] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: Abell moved too quickly! -5.381,4,-19.528
+[05:51:57] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /day
+[05:52:01] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /gm 0
+[05:53:00] [Worker-Main-6/DEBUG] [betterdungeons/]: Small Dungeon at -425 41 -105
+[05:53:00] [Worker-Main-6/DEBUG] [betterdungeons/]: Small Dungeon at -425 13 23
+[05:53:01] [Worker-Main-4/DEBUG] [betterdungeons/]: Zombie Dungeon at -425 49 151
+[05:53:01] [Worker-Main-4/DEBUG] [betterdungeons/]: Small Dungeon at -433 39 -305
+[05:53:18] [Worker-Main-6/DEBUG] [betterdungeons/]: Small Dungeon at -441 48 167
+[05:53:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [Stone Age]
+[05:54:57] [Worker-Main-6/DEBUG] [betterdungeons/]: Small Dungeon at 183 37 327
+[05:54:57] [Worker-Main-4/DEBUG] [betterdungeons/]: Small Dungeon at -275 11 327
+[05:55:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [Getting an Upgrade]
+[05:55:51] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[05:55:51] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[05:55:54] [Worker-Main-6/DEBUG] [betterdungeons/]: Small Dungeon at -441 47 -425
+[05:56:17] [Worker-Main-4/DEBUG] [betterdungeons/]: Spider Dungeon at -533 49 218
+[05:56:51] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Abell lost connection: Disconnected
+[05:56:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell left the game
+[05:56:51] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[05:59:41] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at -585 29 -281
+[05:59:41] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-404, y=66, z=-230} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[05:59:41] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-401, y=66, z=-232} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[05:59:41] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-401, y=66, z=-235} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[05:59:41] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-404, y=66, z=-231} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location

@@ -16,7 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 0
+  logout: 1753509411258
   login: 1753508822321
 money: '0'
 last-account-name: Abell
+logoutlocation:
+  world: 6279493f-704f-45c4-b8c2-cc66c834d8ce
+  world-name: world
+  x: 239.69999998807907
+  y: 68.0
+  z: -18.05214059730038
+  yaw: 332.4268493652344
+  pitch: 9.300030708312988
