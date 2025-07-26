@@ -1,0 +1,659 @@
+[05:29:16] [main/INFO] [STDOUT/]: Update in check...
+[05:29:16] [main/INFO] [STDOUT/]: If you don't want to enable update check, set check_update in mohist-config/mohist.yml to false
+[05:29:16] [main/INFO] [STDOUT/]: [!] Can't connect to the ci to check updates or unable to download the update.
+[05:29:16] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.mohistVersion, 8c7caaf7, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, com.mohistmc, nogui]
+[05:29:16] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher mohist-8.1.3 starting: java version 11.0.27 by Ubuntu
+[05:29:17] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05:29:17] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/apiCliente/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[05:29:18] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[05:29:18] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[05:29:19] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 58 options available, 0 override(s) found
+[05:29:28] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[05:29:28] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[05:29:28] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[05:29:28] [modloading-worker-2/INFO] [com.mohistmc.MohistMC/]: EventDispatcherRegistry initialized
+[05:29:29] [modloading-worker-1/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Injecting super coyotes...
+[05:29:32] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[05:29:32] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `minecraft` for name `flowing_milk`, expected `forge`. This could be a intended override, but in most cases indicates a broken mod.
+[05:29:33] [Thread-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: 'void com.corosus.modconfig.ConfigMod.onReload(net.minecraftforge.fml.config.ModConfig$Reloading)'
+	Index: 1
+	Listeners:
+		0: NORMAL
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$2859/0x0000000840b37c40@5cae5ee4
+java.lang.NoSuchMethodError: 'void com.corosus.modconfig.ConfigMod.onReload(net.minecraftforge.fml.config.ModConfig$Reloading)'
+	at com.corosus.zombieawareness.ZombieAwareness.onReload(ZombieAwareness.java:63)
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+	at net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$7(ModContainer.java:138)
+	at java.base/java.util.Optional.ifPresent(Optional.java:183)
+	at net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:138)
+	at net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:76)
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:147)
+	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: java.lang.NoSuchMethodError: 'void com.corosus.modconfig.ConfigMod.onReload(net.minecraftforge.fml.config.ModConfig$Reloading)'
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at com.corosus.zombieawareness.ZombieAwareness.onReload(ZombieAwareness.java:63)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$7(ModContainer.java:138)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at java.base/java.util.Optional.ifPresent(Optional.java:183)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:138)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:76)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigWatcher.run(ConfigFileTypeHandler.java:147)
+[05:29:33] [Thread-0/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:1050]: 	at com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:181)
+[05:29:33] [modloading-worker-1/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[05:29:33] [modloading-worker-2/INFO] [dev.itsmeow.betteranimalsplus.BetterAnimalsPlusMod/]: Overspawning lammergeiers...
+[05:29:33] [modloading-worker-1/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[05:29:33] [main/INFO] [journeymap/]: Initializing Packet Registries
+[05:29:33] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the fluid minecraft:water as a FluidEffect for Water with the ID 0
+[05:29:33] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the fluid minecraft:lava as a FluidEffect for Lava with the ID 1
+[05:29:33] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the fluid travelersbackpack:potion_fluid as a FluidEffect for Uncraftable Potion with the ID 2
+[05:29:33] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the fluid minecraft:milk as a FluidEffect for Milk with the ID 3
+[05:29:34] [modloading-worker-1/ERROR] [Bad Mobs/CATCHING]: Catching
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at net.darkhax.badmobs.tempshelf.ConfigManager.open(ConfigManager.java:55) ~[badmobs:9.1.9]
+	at net.darkhax.badmobs.config.Configuration.<init>(Configuration.java:30) ~[badmobs:9.1.9]
+	at net.darkhax.badmobs.BadMobs.setup(BadMobs.java:29) ~[badmobs:9.1.9]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:248) ~[mohist.jar:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:240) ~[mohist.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:304) ~[mohist.jar:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:284) ~[mohist.jar:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:106) ~[forge:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:107) ~[forge:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1736) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1728) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) ~[?:?]
+Caused by: net.minecraftforge.fml.config.ConfigFileTypeHandler$ConfigLoadingException: Failed loading config file badmobs-common.toml of type COMMON for modid badmobs
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:47) ~[forge:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[forge:?]
+	... 20 more
+Caused by: com.electronwill.nightconfig.core.io.ParsingException: Invalid value falsse - Expected the boolean value false.
+	at com.electronwill.nightconfig.toml.ValueParser.parseFalse(ValueParser.java:166) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.ValueParser.parse(ValueParser.java:48) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.ValueParser.parse(ValueParser.java:68) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:57) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TableParser.parseNormal(TableParser.java:101) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:88) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.toml.TomlParser.parse(TomlParser.java:37) ~[toml-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:113) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:219) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.io.ConfigParser.parse(ConfigParser.java:202) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.file.WriteSyncFileConfig.load(WriteSyncFileConfig.java:73) ~[core-3.6.3.jar:?]
+	at com.electronwill.nightconfig.core.file.AutosaveCommentedFileConfig.load(AutosaveCommentedFileConfig.java:85) ~[core-3.6.3.jar:?]
+	at net.minecraftforge.fml.config.ConfigFileTypeHandler.lambda$reader$1(ConfigFileTypeHandler.java:43) ~[forge:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:90) ~[forge:?]
+	... 20 more
+[05:29:37] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05:29:38] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, mohist-1.16.5-8c7caaf7-universal.jar, bukkit, Zombie Extreme 1.16.5 0.2.4 UNSTABLE VERSION.jar, BetterDungeons-1.16.4-1.2.1.jar, H.E.B Release 1.0.jar, Philips ruins 1.16.5-2.8.jar, ApocalypseNow_1.16.5_v1.9.jar, tac-release-0.3.14.2-1.16.5.jar, mobsunscreen-1.16.4-2.1.3.jar, journeymap-1.16.5-5.8.6.jar, TravelersBackpack-1.16.5-5.4.51.jar, zombieawareness-1.16.5-1.12.jar, YungsApi-1.16.4-Forge-13.jar, backpacked-forge-1.16.5-2.1.13.jar, lostcities-1.16-4.0.12-beta.jar, obfuscate-0.6.3-1.16.5.jar, betteranimalsplus-1.16.5-11.0.10-forge.jar, BadMobs-1.16.5-9.1.9.jar, coroutil-forge-1.16.5-1.3.6.jar, architectury-1.32.68.jar, valhelsia_core-16.0.15.jar, valhelsia_structures-1.16.5-0.1.6.jar, DynamicTrees-1.16.5-0.10.5.jar, BetterMineshafts-Forge-1.16.4-2.0.4.jar, geckolib-forge-1.16.5-3.0.106.jar, embeddium-0.3.18+mc1.16.5.jar, simple_hammers-0.0.1.jar
+[05:29:40] [Worker-Main-6/INFO] [tac/]: YO_DATA_GUN
+[05:29:40] [Worker-Main-5/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[05:29:40] [Worker-Main-5/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[05:29:40] [Worker-Main-5/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[05:29:40] [Worker-Main-5/ERROR] [net.minecraft.tags.TagCollectionReader/]: Couldnt load {0} tag {1} as it is missing following references: {2}
+[05:29:41] [Worker-Main-5/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1,228 recipes
+[05:29:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[05:29:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05:29:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05:29:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05:29:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25,565
+[05:29:45] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[05:29:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:29:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05:29:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:29:45] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:29:45] [Server thread/INFO] [Minecraft/]: This server is running Mohist version 1.16.5-8c7caaf7 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT, Forge version 36.2.42)
+[05:29:47] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[05:29:47] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[05:29:47] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[05:29:47] [Server thread/INFO] [/]: Loaded inheritance map of 2322 classes
+[05:29:48] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/Nametagsplusplus-1.2.2-stable.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/kamshi/nametags/Nametags has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:148) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: org/kamshi/nametags/Nametags has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:279) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:202) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:138) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:144) ~[forge:?]
+	... 7 more
+[05:29:49] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/AxGraves-1.22.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.20
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:325) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:29:49] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ViaVersion-5.4.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:148) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: com/viaversion/viaversion/ViaVersionPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:279) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:202) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:138) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:144) ~[forge:?]
+	... 7 more
+[05:29:49] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ViaBackwards-5.4.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency ViaVersion. Please download and install ViaVersion to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:270) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:29:50] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/Geyser-Spigot.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/geysermc/geyser/platform/spigot/GeyserSpigotPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:148) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: org/geysermc/geyser/platform/spigot/GeyserSpigotPlugin has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:279) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:202) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:138) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:144) ~[forge:?]
+	... 7 more
+[05:29:50] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/multiverse-core-5.1.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: org/mvplugins/multiverse/core/MultiverseCore has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:148) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.UnsupportedClassVersionError: org/mvplugins/multiverse/core/MultiverseCore has been compiled by a more recent version of the Java Runtime (class file version 61.0), this version of the Java Runtime only recognizes class file versions up to 55.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1022) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.remappedFindClass(PluginClassLoader.java:279) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:202) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:594) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:138) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:398) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:83) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:144) ~[forge:?]
+	... 7 more
+[05:29:51] [Server thread/ERROR] [Minecraft/]: Could not load 'plugins/ChatManager-4.0.3.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.4
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.checkSupported(CraftMagicNumbers.java:325) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:140) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:218) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:29:51] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.6
+[05:29:51] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Loading ClearLag v3.2.2
+[05:29:51] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Loading spark v1.10.71
+[05:29:51] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Loading floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:29:56] [Server thread/WARN] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] en_ is not a supported Floodgate language.
+[05:29:56] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Took 5,173ms to boot Floodgate
+[05:29:56] [Server thread/INFO] [io.github.gonalez.znpcs.ServersNPC/]: [ServersNPC] Loading ServersNPC v5.2
+[05:29:56] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib/]: [ProtocolLib] Loading ProtocolLib v5.3.0-SNAPSHOT-723
+[05:29:56] [Server thread/WARN] [com.comphenix.protocol.ProtocolLib/]: [ProtocolLib] Detailed error reporting enabled!
+[05:29:57] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading LuckPerms v5.4.134
+[05:29:58] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Loading Vault v1.7.3-b131
+[05:29:58] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Loading Essentials v2.20.1
+[05:29:58] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Loading EssentialsProtect v2.20.1
+[05:29:58] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Loading EssentialsChat v2.20.1
+[05:29:58] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Loading TAB v5.2.4
+[05:29:58] [Server thread/INFO] [com.earth2me.essentials.xmpp.EssentialsXMPP/]: [EssentialsXMPP] Loading EssentialsXMPP v2.20.1
+[05:29:58] [Server thread/INFO] [com.comphenix.protocol.ProtocolLib/]: [ProtocolLib] Enabling ProtocolLib v5.3.0-SNAPSHOT-723
+[05:29:58] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Enabling LuckPerms v5.4.134
+[05:30:02] [Server thread/INFO] [/]:         __    
+[05:30:02] [Server thread/INFO] [/]:   |    |__)   LuckPerms v5.4.134
+[05:30:02] [Server thread/INFO] [/]:   |___ |      Running on Bukkit - Mohist
+[05:30:02] [Server thread/INFO] [/]: 
+[05:30:02] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading configuration...
+[05:30:05] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading storage provider... [H2]
+[05:30:11] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Loading internal permission managers...
+[05:30:12] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Performing initial data load...
+[05:30:13] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Successfully enabled. (took 14555ms)
+[05:30:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabling Vault v1.7.3-b131
+[05:30:13] [Server thread/WARN] [net.milkbowl.vault.Vault/]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.1 which is not a depend, softdepend or loadbefore of this plugin.
+[05:30:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy found: Waiting
+[05:30:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[05:30:13] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] Enabled Version 1.7.3-b131
+[05:30:14] [Server thread/INFO] [me.lucko.luckperms.bukkit.loader.BukkitLoaderPlugin/]: [LuckPerms] Registered Vault permission & chat hook.
+[05:30:14] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05:30:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05:30:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05:30:15] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05:30:16] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 73%
+[05:30:18] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[05:30:20] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[05:30:21] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[05:30:21] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 87%
+[05:30:21] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 90%
+[05:30:22] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
+[05:30:23] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[05:30:23] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 8,613 ms
+[05:30:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_nether
+[05:30:23] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05:30:24] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[05:30:25] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[05:30:26] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
+[05:30:26] [Worker-Main-4/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[05:30:26] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 3,709 ms
+[05:30:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:the_end
+[05:30:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05:30:27] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[05:30:27] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 700 ms
+[05:30:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension lostcities:lostcity
+[05:30:28] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05:30:30] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[05:30:32] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[05:30:32] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 85%
+[05:30:33] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
+[05:30:33] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[05:30:34] [Worker-Main-5/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
+[05:30:34] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 94%
+[05:30:35] [Worker-Main-6/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 98%
+[05:30:35] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 7,602 ms
+[05:30:35] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[05:30:35] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Fetching available expansion information...
+[05:30:35] [Server thread/INFO] [me.minebuilders.clearlag.Clearlag/]: [ClearLag] Enabling ClearLag v3.2.2
+[05:30:35] [Server thread/INFO] [Minecraft/]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[05:30:35] [Server thread/INFO] [Minecraft/]: [ClearLag] Loading modules...
+[05:30:35] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules enabed, loading config values
+[05:30:35] [Server thread/INFO] [Minecraft/]: [ClearLag] Modules have been loaded!
+[05:30:35] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now enabled!
+[05:30:35] [Thread-14/INFO] [Minecraft/]: [ClearLag] Checking for updates compatible with your bukkit version [1.16]...
+[05:30:35] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Enabling spark v1.10.71
+[05:30:35] [Thread-14/INFO] [Minecraft/]: [ClearLag] No updates found!
+[05:30:36] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Using Bukkit scheduler for tick monitoring
+[05:30:36] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Starting background profiler...
+[05:30:37] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.71]
+[05:30:37] [Server thread/INFO] [me.lucko.spark.bukkit.BukkitSparkPlugin/]: [spark] Registered PlaceholderAPI placeholders
+[05:30:37] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:30:38] [Server thread/ERROR] [Minecraft/]: Error occurred while enabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c) (Is it up to date?)
+org.geysermc.floodgate.shadow.com.google.inject.CreationException: Unable to create injector, see the following errors:
+
+1) [Guice/ErrorInCustomProvider]: ExceptionInInitializerError
+  at SpigotCommandModule.commandManager(SpigotCommandModule.java:59)
+      \_ installed by: PostInitializeModule -> SpigotCommandModule
+  while locating CommandManager<UserAudience>
+  at CommandRegister.<init>(CommandRegister.java:48)
+  at CommandModule.configure(CommandModule.java:42)
+      \_ installed by: PostInitializeModule -> SpigotCommandModule
+  while locating CommandRegister
+
+Learn more:
+  https://github.com/google/guice/wiki/ERROR_IN_CUSTOM_PROVIDER
+
+1 error
+
+======================
+Full classname legend:
+======================
+CommandManager:              "org.geysermc.floodgate.shadow.org.incendo.cloud.CommandManager"
+CommandModule:               "org.geysermc.floodgate.module.CommandModule"
+CommandRegister:             "org.geysermc.floodgate.register.CommandRegister"
+PostInitializeModule:        "org.geysermc.floodgate.module.PostInitializeModule"
+SpigotCommandModule:         "org.geysermc.floodgate.module.SpigotCommandModule"
+UserAudience:                "org.geysermc.floodgate.player.UserAudience"
+========================
+End of classname legend:
+========================
+
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.Errors.throwCreationExceptionIfErrorsExist(Errors.java:589) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:190) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:113) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:240) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:245) ~[?:?]
+	at org.geysermc.floodgate.FloodgatePlatform.enable(FloodgatePlatform.java:76) ~[?:?]
+	at org.geysermc.floodgate.SpigotPlugin.onEnable(SpigotPlugin.java:70) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:273) ~[forge:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) ~[forge:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:481) ~[forge:?]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugin(CraftServer.java:506) ~[forge:7e29f765-296df566-9fb885e8]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.enablePlugins(CraftServer.java:418) ~[forge:7e29f765-296df566-9fb885e8]
+	at net.minecraft.server.MinecraftServer.func_240787_a_(MinecraftServer.java:443) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240800_l__(MinecraftServer.java:347) ~[?:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:227) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240802_v_(MinecraftServer.java:799) ~[?:?]
+	at net.minecraft.server.MinecraftServer.func_240783_a_(MinecraftServer.java:267) ~[?:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.ExceptionInInitializerError
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.registerParserSupplierFor(BukkitParsers.java:132) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.register(BukkitParsers.java:115) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitCommandManager.<init>(BukkitCommandManager.java:99) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.paper.LegacyPaperCommandManager.<init>(LegacyPaperCommandManager.java:92) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule.commandManager(SpigotCommandModule.java:61) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$149612c.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$149612c.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1181) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister.<init>(CommandRegister.java:49) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19839be.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19839be.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186) ~[?:?]
+	... 16 more
+Caused by: java.lang.IllegalArgumentException: Couldn't find BlockPredicateArgument$Result class
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.internal.CraftBukkitReflection.firstNonNullOrThrow(CraftBukkitReflection.java:115) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.parser.BlockPredicateParser.<clinit>(BlockPredicateParser.java:100) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.registerParserSupplierFor(BukkitParsers.java:132) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitParsers.register(BukkitParsers.java:115) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.bukkit.BukkitCommandManager.<init>(BukkitCommandManager.java:99) ~[?:?]
+	at org.geysermc.floodgate.shadow.org.incendo.cloud.paper.LegacyPaperCommandManager.<init>(LegacyPaperCommandManager.java:92) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule.commandManager(SpigotCommandModule.java:61) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$149612c.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.module.SpigotCommandModule$$FastClassByGuice$$149612c.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod$FastClassProviderMethod.doProvision(ProviderMethod.java:260) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderMethod.doProvision(ProviderMethod.java:171) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.provision(InternalProviderInstanceBindingImpl.java:185) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalProviderInstanceBindingImpl$CyclicFactory.get(InternalProviderInstanceBindingImpl.java:162) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl$1.get(InjectorImpl.java:1148) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InjectorImpl.getInstance(InjectorImpl.java:1181) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister.<init>(CommandRegister.java:49) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19839be.GUICE$TRAMPOLINE(<generated>) ~[?:?]
+	at org.geysermc.floodgate.register.CommandRegister$$FastClassByGuice$$19839be.apply(<generated>) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.DefaultConstructionProxyFactory$FastClassProxy.newInstance(DefaultConstructionProxyFactory.java:82) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:114) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:91) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:300) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:40) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.SingletonScope$1.get(SingletonScope.java:169) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.loadEagerSingletons(InternalInjectorCreator.java:213) ~[?:?]
+	at org.geysermc.floodgate.shadow.com.google.inject.internal.InternalInjectorCreator.injectDynamically(InternalInjectorCreator.java:186) ~[?:?]
+	... 16 more
+[05:30:38] [Server thread/INFO] [org.geysermc.floodgate.SpigotPlugin/]: [floodgate] Disabling floodgate v2.2.4-SNAPSHOT (b116-0e3163c)
+[05:30:38] [Server thread/INFO] [io.github.gonalez.znpcs.ServersNPC/]: [ServersNPC] Enabling ServersNPC v5.2
+[05:30:39] [Server thread/INFO] [com.earth2me.essentials.Essentials/]: [Essentials] Enabling Essentials v2.20.1
+[05:30:39] [Server thread/INFO] [Essentials/]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[05:30:40] [Server thread/INFO] [Essentials/]: Attempting to convert old kits in config.yml to new kits.yml
+[05:30:40] [Server thread/INFO] [Essentials/]: No kits found to migrate.
+[05:30:40] [Server thread/INFO] [Essentials/]: Loaded 39094 items from items.json.
+[05:30:40] [Server thread/INFO] [Essentials/]: Using locale en
+[05:30:40] [Server thread/INFO] [Essentials/]: ServerListPingEvent: Spigot iterator API
+[05:30:40] [Server thread/INFO] [Essentials/]: Starting Metrics. Opt-out using the global bStats config.
+[05:30:40] [Server thread/INFO] [net.milkbowl.vault.Vault/]: [Vault] [Economy] Essentials Economy hooked.
+[05:30:40] [Server thread/INFO] [Essentials/]: Using Vault based permissions (LuckPerms)
+[05:30:40] [Server thread/INFO] [com.earth2me.essentials.protect.EssentialsProtect/]: [EssentialsProtect] Enabling EssentialsProtect v2.20.1
+[05:30:40] [Server thread/INFO] [EssentialsProtect/]: Continuing to enable Protect.
+[05:30:40] [Server thread/INFO] [EssentialsProtect/]: Starting Metrics. Opt-out using the global bStats config.
+[05:30:40] [Server thread/INFO] [com.earth2me.essentials.chat.EssentialsChat/]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[05:30:40] [Server thread/INFO] [EssentialsChat/]: Starting Metrics. Opt-out using the global bStats config.
+[05:30:40] [Server thread/INFO] [me.neznamy.tab.platforms.bukkit.BukkitTAB/]: [TAB] Enabling TAB v5.2.4
+[05:30:41] [Server thread/INFO] [/]: [TAB] [WARN] [groups.yml] Unknown property "customtagname" defined for group "_DEFAULT_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[05:30:41] [Server thread/INFO] [/]: [TAB] [WARN] [users.yml] Unknown property "abovename" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[05:30:41] [Server thread/INFO] [/]: [TAB] [WARN] [users.yml] Unknown property "belowname" defined for user "_NEZNAMY_". Valid properties: [tagprefix, tagsuffix, tabprefix, customtabname, tabsuffix, header, footer]
+[05:30:41] [Server thread/INFO] [/]: [TAB] [WARN] Found a total of 3 issues.
+[05:30:41] [Server thread/INFO] [/]: [TAB] §xEnabled in 725ms
+[05:30:41] [Server thread/INFO] [com.earth2me.essentials.xmpp.EssentialsXMPP/]: [EssentialsXMPP] Enabling EssentialsXMPP v2.20.1
+[05:30:41] [Server thread/WARN] [EssentialsXMPP/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[05:30:41] [Server thread/INFO] [EssentialsXMPP/]: Starting Metrics. Opt-out using the global bStats config.
+[05:30:41] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[05:30:41] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[05:30:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (27.960s)! For help, type "help"
+[05:30:42] [Server thread/INFO] [Essentials/]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[05:30:42] [Craft Scheduler Thread - 7/INFO] [Essentials/]: Fetching version information...
+[05:30:42] [Server thread/WARN] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend, softdepend or loadbefore of this plugin.
+[05:30:42] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.3]
+[05:30:42] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin/]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[05:30:42] [Server thread/INFO] [/]: 2 placeholder hook(s) registered!
+[05:30:42] [Craft Scheduler Thread - 5/INFO] [net.milkbowl.vault.Vault/]: [Vault] Checking for Updates ... 
+[05:30:42] [Craft Scheduler Thread - 5/INFO] [net.milkbowl.vault.Vault/]: [Vault] No new version available
+[05:30:42] [Craft Scheduler Thread - 7/WARN] [Essentials/]: There is a new EssentialsX version available for download: 2.21.1.
+[05:30:42] [Craft Scheduler Thread - 7/WARN] [Essentials/]: Download it here: https://essentialsx.net/downloads.html?branch=stable
+[05:30:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made Slowin_s a server operator
+[05:30:57] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: org.geysermc.floodgate.inject.spigot.SpigotInjector$2$1
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:178) ~[forge:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:133) ~[forge:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:527) ~[?:?]
+	... 13 more
+[05:31:03] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:31:09] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:31:10] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollChannel$AbstractEpollUnsafe$1.run(AbstractEpollChannel.java:387) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:404) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:313) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:31:10] [User Authenticator #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Slowin_S is ac7bbd7b-9286-3f1f-9120-3d5035110bfd
+[05:31:10] [Netty Epoll Server IO #4/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 28 mods : minecraft, zombie_extreme, betterdungeons, heb, philips_ruins1_16_5, apocalypsenow, tac, mobsunscreen, journeymap, travelersbackpack, zombieawareness, yungsapi, backpacked, lostcities, obfuscate, betteranimalsplus, badmobs, coroutil, architectury, forge, valhelsia_core, valhelsia_structures, dynamictrees, bettermineshafts, geckolib3, embeddium, rubidium, simple_hammers
+[05:31:11] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:31:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Slowin_S[/100.80.144.71:49784] logged in with entity id 189 at (151.5, 63, -56.5)
+[05:31:12] [Server thread/INFO] [tac/]: PENDING
+[05:31:12] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[05:31:19] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:31:19] [User Authenticator #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player carlospelatodo is 9ab9b2ae-7c63-37ed-8214-a1f03a54a363
+[05:31:19] [Netty Epoll Server IO #6/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 28 mods : minecraft, zombie_extreme, betterdungeons, heb, philips_ruins1_16_5, apocalypsenow, tac, mobsunscreen, journeymap, travelersbackpack, zombieawareness, yungsapi, backpacked, lostcities, obfuscate, betteranimalsplus, badmobs, coroutil, architectury, forge, valhelsia_core, valhelsia_structures, dynamictrees, bettermineshafts, geckolib3, embeddium, rubidium, simple_hammers
+[05:31:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: carlospelatodo[/100.80.246.77:57687] logged in with entity id 400 at (162.5, 64, -49.5)
+[05:31:21] [Server thread/INFO] [tac/]: PENDING
+[05:31:21] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[05:31:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made Slowin_S a server operator
+[05:31:45] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugins
+[05:31:52] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugins reload
+[05:31:56] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugin reload
+[05:33:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Stone Age]
+[05:33:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Getting an Upgrade]
+[05:37:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [Stone Age]
+[05:37:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [Getting an Upgrade]
+[05:38:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Acquire Hardware]
+[05:38:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Isn't It Iron Pick]
+[05:40:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Suit Up]
+[05:40:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [Acquire Hardware]
+[05:40:59] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /day
+[05:41:53] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: carlospelatodo has made the advancement [Suit Up]
+[05:44:06] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tp carlospelatodo
+[05:45:26] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /gm 1
+[05:45:46] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /gm 0
+[05:46:55] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:46:58] [Netty Epoll Server IO #0/WARN] [io.netty.channel.DefaultChannelPipeline/]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.NoClassDefFoundError: org/geysermc/floodgate/inject/spigot/SpigotInjector$2$1
+	at org.geysermc.floodgate.inject.spigot.SpigotInjector$2.channelRead(SpigotInjector.java:116) ~[?:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1434) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:965) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.AbstractEpollServerChannel$EpollServerSocketUnsafe.epollInReady(AbstractEpollServerChannel.java:120) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:408) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:308) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:884) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[05:46:58] [User Authenticator #3/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: UUID of player Abell is 30df0c59-1635-3edd-84ac-62caa13826cf
+[05:46:59] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.network.FMLHandshakeHandler/]: Client attempting to join with 27 mods : minecraft, zombie_extreme, betterdungeons, heb, philips_ruins1_16_5, apocalypsenow, tac, mobsunscreen, journeymap, travelersbackpack, zombieawareness, yungsapi, backpacked, lostcities, obfuscate, betteranimalsplus, badmobs, coroutil, architectury, forge, valhelsia_core, valhelsia_structures, tlskincape, dynamictrees, bettermineshafts, geckolib3, simple_hammers
+[05:47:02] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Abell[/100.123.84.114:51920] logged in with entity id 4,677 at (167.5, 69, -47.5)
+[05:47:02] [Server thread/INFO] [Essentials/]: Created a User for Abell (30df0c59-1635-3edd-84ac-62caa13826cf) for non Bukkit type: org.bukkit.craftbukkit.v1_16_R3.entity.CraftPlayer
+[05:47:02] [Server thread/INFO] [tac/]: PENDING
+[05:47:02] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[05:47:14] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /gm 1
+[05:49:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /kill Slowin_S
+[05:49:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S died
+[05:49:09] [Server thread/INFO] [tac/]: PENDING
+[05:49:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [The survivor]
+[05:49:12] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tp carlospelatodo
+[05:49:35] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /plugins

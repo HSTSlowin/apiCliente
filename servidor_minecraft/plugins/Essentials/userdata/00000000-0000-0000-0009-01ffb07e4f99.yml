@@ -1,0 +1,63 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 100.83.254.78
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1752818744423
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1752820298725
+  login: 1752819785988
+money: '0'
+last-account-name: .ABELARD03451
+lastlocation:
+  world: c58281f9-8fc3-4ff6-96a5-08506a6b36c0
+  world-name: Karmaland2
+  x: -454.685
+  y: 176.0
+  z: 287.44867
+  yaw: 132.39218139648438
+  pitch: 13.030364990234375
+logoutlocation:
+  world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
+  world-name: world
+  x: -4194.549
+  y: 86.5
+  z: -18.981688
+  yaw: -94.6861801147461
+  pitch: -11.5985107421875
+homes:
+  home:
+    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
+    world-name: world
+    x: 738.5599
+    y: 56.0
+    z: 839.8205
+    yaw: 140.576171875
+    pitch: 24.847686767578125
+  casa:
+    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
+    world-name: world
+    x: 736.9239
+    y: 56.0
+    z: 839.9173
+    yaw: 131.24041748046875
+    pitch: 22.417449951171875
+  vege:
+    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
+    world-name: world
+    x: -4178.9214
+    y: 71.0
+    z: -35.931618
+    yaw: -125.06051635742188
+    pitch: 28.952987670898438
