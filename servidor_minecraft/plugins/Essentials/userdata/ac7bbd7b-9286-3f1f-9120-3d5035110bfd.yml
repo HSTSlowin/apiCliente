@@ -11,85 +11,20 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1753508952970
+  lastteleport: 0
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1752912677014
-  login: 1753507872535
+  logout: 1753510588541
+  login: 1753510876030
 money: '0'
 last-account-name: Slowin_S
-lastlocation:
+logoutlocation:
   world: 6279493f-704f-45c4-b8c2-cc66c834d8ce
   world-name: world
-  x: 169.5
-  y: 66.0
-  z: -54.5
-  yaw: -36.20951461791992
-  pitch: 13.06067180633545
-logoutlocation:
-  world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-  world-name: world
-  x: 675.187201654526
-  y: 64.0
-  z: 697.1076076765745
-  yaw: 126.071533203125
-  pitch: 7.223011016845703
-homes:
-  base:
-    world: 6279493f-704f-45c4-b8c2-cc66c834d8ce
-    world-name: world
-    x: -797.9471046653658
-    y: 20.0
-    z: 654.3698082078271
-    yaw: 8.05938720703125
-    pitch: 10.19962215423584
-  aldea:
-    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-    world-name: world
-    x: 665.0438291683099
-    y: 66.0
-    z: 721.7783959726739
-    yaw: -51.513160705566406
-    pitch: 7.673226356506348
-  hplaaa:
-    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-    world-name: world
-    x: 660.3239825663642
-    y: 54.0
-    z: 701.5342452799443
-    yaw: 179.50318908691406
-    pitch: 31.633018493652344
-  bascobre:
-    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-    world-name: world
-    x: -1641.0601110696932
-    y: -14.0
-    z: 494.92944354721084
-    yaw: 34.575439453125
-    pitch: 20.193504333496094
-  savana:
-    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-    world-name: world
-    x: -4171.472922157133
-    y: 71.0
-    z: -18.314217639177084
-    yaw: -92.7200927734375
-    pitch: 16.850906372070312
-  axel:
-    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-    world-name: world
-    x: -3996.9708652748677
-    y: 36.0
-    z: -31.19692155097773
-    yaw: 173.40496826171875
-    pitch: 9.014840126037598
-  meseta:
-    world: 1d44e96f-52d1-4d3c-80ca-1dd436e1aefc
-    world-name: world
-    x: -5867.866093506234
-    y: 69.0
-    z: -1906.6907153180944
-    yaw: 152.71278381347656
-    pitch: 12.357251167297363
+  x: -46.32897309493654
+  y: 78.0
+  z: -60.69999998807907
+  yaw: -234.3358917236328
+  pitch: 44.039024353027344
