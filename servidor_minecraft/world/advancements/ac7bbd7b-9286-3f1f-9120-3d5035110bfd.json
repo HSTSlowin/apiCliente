@@ -876,6 +876,12 @@
     },
     "done": true
   },
+  "apocalypsenow:electricalengineeringiseasy": {
+    "criteria": {
+      "electricalengineeringiseasy": "2025-07-26 07:00:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/oak_wood": {
     "criteria": {
       "has_log": "2025-07-26 05:32:28 +0000"

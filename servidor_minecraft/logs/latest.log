@@ -472,3 +472,59 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.4
 [06:53:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: carlospelatodo[/100.80.246.77:58193] logged in with entity id 9,505 at (-284.5, 72, 177.5)
 [06:53:50] [Server thread/INFO] [tac/]: PENDING
 [06:53:50] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=384} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=390} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=384} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=389} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=392} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=386} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=391} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=385} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=386} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=385} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=388} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=387} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=398} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=392} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=397} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=391} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=394} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=399} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=394} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=388} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=393} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=387} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=396} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=390} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=395} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=389} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=399} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=396} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=395} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=398} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=397} but found not block entity block Block{minecraft:diorite} at location
+[06:55:42] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-278, y=63, z=410} but found not block entity block Block{minecraft:dirt} at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-342, y=63, z=471} but found not block entity block Block{minecraft:dirt} at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-341, y=63, z=468} but found not block entity block Block{minecraft:dirt} at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-342, y=63, z=467} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-341, y=63, z=467} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-558, y=64, z=633} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=64, z=629} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-548, y=68, z=629} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-549, y=68, z=630} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=65, z=626} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=69, z=629} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-553, y=63, z=628} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-557, y=63, z=632} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-553, y=65, z=630} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-553, y=65, z=625} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-549, y=69, z=625} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-548, y=63, z=628} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=63, z=633} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-548, y=65, z=631} but found not block entity block Block{minecraft:stone} at location
+[06:59:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [When in Rome]
+[07:00:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Electrical engineering is easy!]
+[07:00:58] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-562, y=64, z=632} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[07:00:58] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-563, y=63, z=630} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[07:01:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere Abell
+[07:02:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo

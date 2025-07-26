@@ -10596,3 +10596,88 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.4
 [06:53:50] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: carlospelatodo[/100.80.246.77:58193] logged in with entity id 9,505 at (-284.5, 72, 177.5)
 [06:53:50] [Server thread/INFO] [tac/]: PENDING
 [06:53:50] [Server thread/WARN] [Essentials/]: XMPP is not configured properly. If you do not know what XMPP is, you may wish to remove the EssentialsXXMPP plugin from your server.
+[06:55:16] [Worker-Main-14/DEBUG] [betterdungeons/]: Small Dungeon at -611 20 529
+[06:55:16] [Worker-Main-15/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Non-viable branch network detected during world generation @ BlockPos{x=-266, y=73, z=398}
+[06:55:16] [Worker-Main-15/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Species: Species{registryName=dynamictrees:oak}
+[06:55:16] [Worker-Main-15/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Radius: 3
+[06:55:16] [Worker-Main-15/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: JoCode: JOORLJx+XvtJOXePfkJJxx67f
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=384} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=390} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=384} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=389} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=392} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=386} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=391} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=385} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=386} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=385} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=388} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=387} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=398} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=392} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=397} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=391} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=394} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=399} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=394} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=388} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=393} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=387} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=396} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=390} but found not block entity block Block{minecraft:andesite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-281, y=64, z=395} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=389} but found not block entity block Block{minecraft:dirt} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=399} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=396} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=395} but found not block entity block Block{minecraft:diorite} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=398} but found not block entity block Block{minecraft:stone} at location
+[06:55:38] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-275, y=64, z=397} but found not block entity block Block{minecraft:diorite} at location
+[06:55:42] [Worker-Main-5/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Non-viable branch network detected during world generation @ BlockPos{x=-463, y=73, z=438}
+[06:55:42] [Worker-Main-5/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Species: Species{registryName=dynamictrees:birch}
+[06:55:42] [Worker-Main-5/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Radius: 2
+[06:55:42] [Worker-Main-5/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: JoCode: JJOZOhJPpJPRJOOOP097+nv
+[06:55:42] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-278, y=63, z=410} but found not block entity block Block{minecraft:dirt} at location
+[06:55:56] [Worker-Main-14/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Non-viable branch network detected during world generation @ BlockPos{x=-404, y=67, z=470}
+[06:55:56] [Worker-Main-14/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Species: Species{registryName=dynamictrees:oak}
+[06:55:56] [Worker-Main-14/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: Radius: 3
+[06:55:56] [Worker-Main-14/DEBUG] [com.ferreusveritas.dynamictrees.worldgen.JoCode/]: JoCode: JOORLJx+XvtJOXePfkJJxx67f
+[06:55:58] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[06:55:58] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[06:56:12] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at -479 40 641
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-342, y=63, z=471} but found not block entity block Block{minecraft:dirt} at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-341, y=63, z=468} but found not block entity block Block{minecraft:dirt} at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-342, y=63, z=467} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:56:13] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-341, y=63, z=467} but found not block entity block Block{minecraft:dirt} at location
+[06:56:25] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at -115 26 679
+[06:56:30] [Worker-Main-15/DEBUG] [betterdungeons/]: Small Dungeon at -319 45 695
+[06:57:06] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at -771 22 657
+[06:58:16] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at -787 47 321
+[06:58:25] [Worker-Main-14/DEBUG] [betterdungeons/]: Small Dungeon at -451 48 801
+[06:58:42] [Worker-Main-14/DEBUG] [betterdungeons/]: Small Dungeon at -281 18 815
+[06:58:42] [Worker-Main-15/DEBUG] [betterdungeons/]: Small Dungeon at -641 35 817
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-558, y=64, z=633} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=64, z=629} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-548, y=68, z=629} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-549, y=68, z=630} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=65, z=626} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=69, z=629} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-553, y=63, z=628} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-557, y=63, z=632} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-553, y=65, z=630} but found not block entity block Block{minecraft:dirt} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-553, y=65, z=625} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-549, y=69, z=625} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-548, y=63, z=628} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-552, y=63, z=633} but found not block entity block Block{minecraft:stone} at location
+[06:59:37] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-548, y=65, z=631} but found not block entity block Block{minecraft:stone} at location
+[06:59:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [When in Rome]
+[07:00:21] [Worker-Main-5/DEBUG] [betterdungeons/]: Small Dungeon at -785 31 -1
+[07:00:27] [Worker-Main-14/DEBUG] [betterdungeons/]: Small Dungeon at -803 45 535
+[07:00:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Slowin_S has made the advancement [Electrical engineering is easy!]
+[07:00:58] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-562, y=64, z=632} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[07:00:58] [Server thread/WARN] [net.minecraft.world.chunk.Chunk/]: Tried to load a DUMMY block entity @ BlockPos{x=-563, y=63, z=630} but found not block entity block Block{minecraft:grass_block}[snowy=false] at location
+[07:00:58] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: Gathering id map for writing to world save world
+[07:00:58] [Server thread/DEBUG] [net.minecraftforge.fml.FMLWorldPersistenceHook/WP]: ID Map collection complete world
+[07:01:55] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere Abell
+[07:02:05] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere carlospelatodo
+[07:03:39] [Worker-Main-14/DEBUG] [betterdungeons/]: Small Dungeon at 15 42 663
+[07:05:05] [Worker-Main-14/DEBUG] [betterdungeons/]: Small Dungeon at 23 27 797
