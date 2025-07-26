@@ -363,3 +363,22 @@ org.bukkit.plugin.InvalidPluginException: Unsupported API version 1.21.4
 [06:22:39] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /day
 [06:24:16] [Server thread/INFO] [tac/]: PENDING
 [06:24:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Abell has made the advancement [The survivor]
+[06:25:07] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Slowin_S issued server command: /tphere Abell
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-171, y=79, z=-319} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-171, y=79, z=-319} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-171, y=79, z=-318} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-171, y=79, z=-318} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-319} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-319} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-318} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-318} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-168, y=79, z=-317} Block{minecraft:chest}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-168, y=79, z=-317} Block{minecraft:chest}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-161, y=79, z=-317} Block{minecraft:chest}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-161, y=79, z=-317} Block{minecraft:chest}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-171, y=79, z=-319} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-171, y=79, z=-318} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-319} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-170, y=79, z=-318} Block{minecraft:light_blue_bed}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-168, y=79, z=-317} Block{minecraft:chest}
+[06:32:46] [Worker-Main-15/WARN] [net.minecraft.world.gen.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=-161, y=79, z=-317} Block{minecraft:chest}
